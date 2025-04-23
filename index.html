@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Entrepreneur Pricing</title>
+    <style>
+        * {
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .page-header {
+            font-size: 3.4rem;
+        }
+
+        .card {
+            display: block;
+            width: fit-content;
+            background-color: #5c5ce4;
+            padding: 2rem;
+            border-radius: 5px;
+            margin: 2rem;
+            transition: ease .24s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+        
+        .card-header {
+            color: white;
+            margin-top: 0;
+        }
+
+        .inclusion-list {
+            color: white;
+            padding-left: 1rem;
+        }
+
+        .pricing {
+            color: white;
+        }
+
+        .learn-button {
+            border: 1px solid white;
+            border-radius: 5px;
+            background-color: white;
+            padding: .5rem;
+            color: #5c5ce4;
+        }
+
+        #elite {
+            transform: scale(1.1)
+        }
+
+        #elite:hover {
+            transform: scale(1.15)
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <h1 class="page-header">Explore Plans</h1>
+    </div>
+    <div class="row">
+        <div class="card">
+            <h2 class="card-header">Core</h2>
+            <ul class="inclusion-list">
+                <li class="list-item">Per hour pricing</li>
+                <li class="list-item">Response within 24 hours</li>
+                <li class="list-item">Dedicated customer request form</li>
+            </ul>
+            <h2 class="card-header">Pricing</h2>
+            <p class="pricing">$50 a month</p>
+            <p class="pricing">$100 per development hour</p>
+            <button class="learn-button">Learn More</button>
+        </div>    
+        <div class="card">
+            <h2 class="card-header">Pro</h2>
+            <ul class="inclusion-list">
+                <li class="list-item">5 development hours a month at pro pricing</li>
+                <li class="list-item">Responses within 12 hours</li>
+                <li class="list-tiem">Dedicated customer request form</li>
+            </ul>
+            <h2 class="card-header">Pricing</h2>
+            <p class="pricing">$250 a month</p>
+            <p class="pricing">$150 per development hour after 5 hours</p>
+            <button class="learn-button">Learn More</button>
+        </div>
+        <div id="elite" class="card">
+            <h2 class="card-header">Elite</h2>
+            <ul class="inclusion-list">
+                <li class="list-item">10 development hours a month at pro pricing</li>
+                <li class="list-item">Response within 8 hours</li>
+                <li class="list-item">Dedicated customer request form</li>
+            </ul>
+            <h2 class="card-header">Pricing</h2>
+            <p class="pricing">$500 a month</p>
+            <p class="pricing">$125 per development hour</p>
+            <button class="learn-button">Learn More</button>
+        </div>
+    </body>
+    </div>
+
+</html>
